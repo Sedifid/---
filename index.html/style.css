@@ -1,0 +1,282 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: #34547A;
+    font-size: 48px;
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    background: #EEEFF1;
+    display: flex;
+    position: fixed;
+    top: 0%;
+}
+
+body {
+    width: 100%;
+    background: #EEEFF1;
+    background-repeat: no-repeat;
+}
+
+.menu_button {
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.menu_button:hover {
+    background-position: 100% 0;
+}
+
+.about_button {
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.about_button:hover {
+    background-position: 50% 0;
+}
+
+.header_logo {
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    margin-left: 402px;
+}
+
+.header_menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    margin-left: 398px;
+    margin-top: 50px;
+}
+
+a {
+    padding-left: 42px;
+}
+
+.intro {
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.intro_left {
+    width: 357px;
+    padding-top: 50px;
+}
+
+.intro_right {
+    max-width: 541px;
+    margin-left: 130px;
+    margin-bottom: 271px;
+}
+
+.intro_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.intro_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.about {
+    background: white;
+}
+
+.wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.about_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about_block {
+    width: 540px;
+    text-align: center;
+}
+
+.about_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-top: 119px;
+    margin-bottom: 50px;
+}
+
+.about_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.projects {
+    background: #34547A;
+}
+
+.projects_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.projects_block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills {
+    background-color: white;
+}
+
+.skills_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills_img {
+    width: 555px;
+    height: 450px;
+    margin-top: 102px;
+    margin-bottom: 101px;
+}
+
+.skills_left {
+    width: 445px;
+    margin-right: 150px;
+}
+
+.skills_title {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.skill {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 24px;
+}
+
+.skill_1 {
+    position: relative;
+}
+
+.skill_1::before {
+    content: " ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_1::after {
+    content: " ";
+    width: 200px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_2 {
+    position: relative;
+}
+
+.skill_2::before {
+    content: " ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_2::after {
+    content: " ";
+    width: 300px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_3 {
+    position: relative;
+}
+
+.skill_3::before {
+    content: " ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_3::after {
+    content: " ";
+    width: 300px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.text::before {
+    content: "Доброго ";
+}
+
+.text::after {
+    content: " суток!";
+}
+
